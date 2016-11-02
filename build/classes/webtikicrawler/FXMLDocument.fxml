@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="245.0" prefWidth="696.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="webtikicrawler.FXMLDocumentController">
+    <children>
+        <Button fx:id="scn1Btn1" layoutX="70.0" layoutY="123.0" onAction="#handleButtonAction" text="Start Crawl" />
+      <TextField fx:id="txd" alignment="CENTER" layoutX="39.0" layoutY="28.0" prefHeight="69.0" prefWidth="209.0" promptText="Url website: tiki.vn" style="-fx-background-color: Linen;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
